@@ -1,5 +1,5 @@
-# [Choice] Debian / Ubuntu version (use Debian 11, Ubuntu 18.04/22.04 on local arm64/Apple Silicon): debian-11, debian-10, ubuntu-22.04, ubuntu-20.04, ubuntu-18.04
-ARG VARIANT=debian-11
+# [Choice] Debian / Ubuntu version (use Debian 10, Ubuntu 18.04/22.04 on local arm64/Apple Silicon): debian-11, debian-10, ubuntu-22.04, ubuntu-20.04, ubuntu-18.04
+ARG VARIANT=debian-10
 FROM mcr.microsoft.com/vscode/devcontainers/base:0-${VARIANT}
 
 # Install needed packages. Use a separate RUN statement to add your own dependencies.
